@@ -20,3 +20,10 @@ Run the below command to train the inception network with the images.
 python3 retrain.py --image_dir ./photocreate --output_labels labels.txt --output_graph output_graph.pb --how_many_training_steps 1500
 
 The above command uses the python3 appllication to open the file retrain.py, which is the file in which scripts for the training are written. --image_dir show the directory in which the folders labelled as the group categories are named.
+
+
+Raspberry Pi Setup:
+Python3
+Works only if the version of the training and testing tensorflow in RPi is same(1.14)
+
+Files in the Rpi is to be copied to the Rpi
